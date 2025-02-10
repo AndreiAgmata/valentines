@@ -17,7 +17,7 @@ const DecorativeShape: React.FC<DecorativeShapeProps> = ({
   if (type === "heart") {
     return (
       <svg
-        className={`w-8 h-8 ${className}`}
+        className={`w-24 h-24 ${className}`} // Changed from w-8 h-8 to w-24 h-24 (3x larger)
         viewBox="0 0 24 24"
         fill="currentColor"
       >
@@ -27,7 +27,7 @@ const DecorativeShape: React.FC<DecorativeShapeProps> = ({
   }
   return (
     <svg
-      className={`w-8 h-8 ${className}`}
+      className={`w-24 h-24 ${className}`} // Changed from w-8 h-8 to w-24 h-24 (3x larger)
       viewBox="0 0 24 24"
       fill="currentColor"
     >
@@ -156,7 +156,7 @@ export default function Home() {
       <FloatingShapes />
       <div className="container mx-auto px-4 flex flex-col gap-10 md:gap-20 w-full max-w-[800px] overflow-visible">
         <div className="line-0 flex items-center justify-center h-screen">
-          <p className="text-4xl md:text-5xl lg:text-7xl m-0">Hello Pookie,</p>
+          <p className="text-4xl md:text-5xl lg:text-7xl m-0">For Pookie,</p>
         </div>
 
         <div className="line-1 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 h-screen">
