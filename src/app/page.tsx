@@ -217,7 +217,7 @@ export default function Home() {
 
         <div className="line-5 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 py-20 h-screen">
           <p className="line-text text-3xl md:text-4xl lg:text-5xl text-center md:text-left">
-            Will you be my Valentine
+            Will you be my Valentine?
           </p>
           <div className="line-5-image-wrapper relative w-72 md:w-96 h-44 md:h-56 rounded-full overflow-hidden">
             <Image
